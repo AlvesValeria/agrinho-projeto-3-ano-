@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho: Do Campo à Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        Semeando Sonhos, Colhendo Futuro.
+    </header>
+    
+    <div class="container">
+        <h2>🌱 Cultivando Sonhos, Transformando o Futuro! 🌆</h2>
+        <p>A força do campo impulsiona a cidade, criando novas oportunidades e conectando pessoas.</p>
+        
+        <button class="btn" onclick="mostrarMensagem()">Colher Oportunidades</button>
+        <p id="mensagem">🌿 "Cada semente plantada hoje é um fruto colhido amanhã!" 🚜</p>
+        
+        <section>
+            <h3>🌾 O Valor do Campo</h3>
+            <p>O campo é a base da sociedade, oferecendo alimentos, cultura e um modo de vida essencial. 
+               As pessoas que vêm da zona rural carregam consigo conhecimento, resiliência e esperança.</p>
+            <button class="btn" onclick="mostrarValor()">Ver Mais</button>
+            <p id="valor-campo" style="display: none;">💚 "O campo ensina que cada desafio é uma chance de crescer!"</p>
+        </section>
+        
+        <section>
+            <h3>🏙️ A Jornada para a Cidade</h3>
+            <p>Muitos deixam o campo em busca de oportunidades na cidade, levando consigo seus sonhos e sua determinação.</p>
+            <button class="btn" onclick="mostrarCidade()">Ver Mais</button>
+            <p id="valor-cidade" style="display: none;">✨ "A cidade acolhe aqueles que trazem consigo a força e a essência do campo!"</p>
+        </section>
+        
+        <section>
+            <h3>🔗 União entre Campo e Cidade</h3>
+            <p>A tecnologia e a inovação possibilitam a conexão entre o campo e a cidade, garantindo um futuro melhor para todos.</p>
+            <button class="btn" onclick="mostrarFuturo()">Ver Mais</button>
+            <p id="valor-futuro" style="display: none;">🌍 "Construindo pontes entre tradições e progresso!"</p>
+        </section>
+        
+        
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").style.display = "block";
+        }
+
+        function mostrarValor() {
+            document.getElementById("valor-campo").style.display = "block";
+        }
+
+        function mostrarCidade() {
+            document.getElementById("valor-cidade").style.display = "block";
+        }
+
+        function mostrarFuturo() {
+            document.getElementById("valor-futuro").style.display = "block";
+        }
+
+        function mostrarContato() {
+            document.getElementById("contato").style.display = "block";
+        }
+    </script>
+</body>
+</html>
